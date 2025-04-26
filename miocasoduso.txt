@@ -1,0 +1,17 @@
+
+Descrizione: Vorrei automatizzare il monitoraggio di un flusso
+
+Function-call previsto:
+- Function-call che fa estrazione dal database e creazione di un file excel
+- function-call che applica i filtri per evidenziare i record che andranno analizzati
+- function-call che suddivide i casi che andranno analizzati in base alla tipologia di trattamento
+- function-call che suggerisce cosa va ulteriormente controllato prima di aprire ticket o inviae una mail
+- function-call che identifica se i casi identificati sono già stati trattati nei giorni scorsi e quindi non va fatta nessuna azione
+- function-call che estrae i casi da analizzare e scrive il testo per aprire il ticket/mail
+- function-call che estrae i casi al limite e crea uno storico. Se questi casi non si risolvono da soli dopo 30 giorni ti avvisa
+
+Prompt previsto: "Sei il responsabile del monitoraggio dei flussi. Dovrai eseguire le operazioni necessarie per analizzare i dati: estrarli dal databese, applicare filtri, suddividerli per tipologia, suggerire azioni, verificare duplicati e generare notifiche o ticket."
+
+Esempio domanda: 
+Esegui l'estrazione della "Financial Request" e identificami quali record devo risolvere
+
